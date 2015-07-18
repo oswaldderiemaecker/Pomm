@@ -2,7 +2,7 @@
 
 <phpunit bootstrap="./vendor/autoload.php">
     <php>
-        <var name="dsn" value="pgsql://postgres:@localhost:5432/db_name" />
+        <var name="dsn" value="pgsql://postgres:@localhost:5432/test_db" />
         <var name="dev" value="false" />
     </php>
     <testsuites>
